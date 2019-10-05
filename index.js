@@ -25,6 +25,6 @@ require('./router')(app)
 
 require('./socket')(io, app)
 
-app.listen(process.env.PORT || 3300, () => {
-  console.log(`server listen port ${process.env.PORT || 3300}`)
+app.listen(process.env.PORT || 3301, () => {
+  console.log(`server listen port ${process.env.PORT || 3301}`)
 })
